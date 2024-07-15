@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="intro">
+    <h2 class="welcome">welcome to</h2>
+    <h1 class="blackjack-title">BlackJack</h1>
+    <button class="start-btn">start</button>
+  </div>
+  <div class="game">
+    <h3 class="turn"></h3>
+    <div class="dealer">
+      <div id="dealer-placeholder" class="card blank"></div>
+    </div>
+    <div class="middle">
+      <button class="btn draw">Draw</button>
+      <div class="card deck ">
+        <img 
+          src="./Screenshot_2024-07-12_at_5.07.25_PM-removebg-preview.png" 
+          alt="back of card"
+          class="back"
+          >
+      </div>
+      <button class="btn stay">Stay</button>
+      
+    </div>
+    <div class="player">
+      <div id="player-placeholder" class="card blank"></div>
+    </div>
+    <h3 class="score">Card Value: </h1>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
+
